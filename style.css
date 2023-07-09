@@ -2,17 +2,56 @@ body{
     background:red;
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
+    justify-content:flex-start;
     margin:0px;
-
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 header{
     padding:10px;
     background:#1F2937;
+    display:flex;
+    justify-content: space-between;
+}
+header .logo{
+    font-size: 24px;
+    color:#F9FAF8;
+    display:flex;
+
+}
+header ul{
+    font-size: 18px;
+    color:#E5E7EB;
+    list-style: none;
+    margin:0px;
+    display:flex;
+    gap:20px;
 }
 .section1-container{
+    display:flex;
+    flex-direction:row;
     padding:10px;
     background:#1F2937;
+}
+.section1-container .container1 b{
+    font-size: 48px;
+    color:#F9FAF8;
+}
+.section1-container .container1 .text{
+    font-size:18px;
+    color: #E5E7EB;
+}
+.section1-container .container1 button{
+    height:30px;
+    width:80px;
+    border-radius: 5px;
+    color:#F9FAF8;
+    background-color:#3882F6;
+}
+.section1-container .container2 img{
+    width:400px;
+    height:200px;
+    background:white;
 }
 .section2-container{
     padding:10px;
